@@ -1,8 +1,32 @@
-
-
 <!DOCTYPE HTML>  
 <html>
 <head>
+<html lang="en">
+
+		<head>
+
+			<meta charset="UTF-8">
+
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+			<link rel="stylesheet" href="css/stylesheet.css">
+
+			
+
+			<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+
+			
+
+			<!--[if lt IE 9]>
+
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+		<![endif]-->
+
+		
+
+		<title> Test Your Password To Determon How Secure It Is </title>
+
 
 </head>
 <body>  
