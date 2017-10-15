@@ -1,0 +1,251 @@
+CREATE DATABASE PASSWORDS;
+USE PASSWORDS;
+CREATE TABLE Hacked_Passwords( 
+ID t NOT NULL AUTO_INCREMENT,
+Password (ID),
+FOREIGN KEY(Hack_Details_ID);
+CREATE TABLE Hacked_Passwords(  ID t NOT NULL AUTO_INCREMENT,  Password (ID),    FOREIGN KEY(Hack_Details_ID);
+REATE TABLE Hack_Details( 
+ID t (6),
+Hack_Date (ID),;
+REATE TABLE Hack_Details(   ID t (6), Hack_Date (ID),;
+CREATE TABLE Hack_Details( 
+ID t (6),
+Hack_Date (ID),
+);
+CREATE TABLE Hack_Details(   ID t (6), Hack_Date (ID), );
+CREATE TABLE Hacked_Passwords( 
+ID t NOT NULL AUTO_INCREMENT,
+Password (ID),
+FOREIGN KEY(Hack_Details_ID));
+CREATE TABLE Hacked_Passwords(  ID t NOT NULL AUTO_INCREMENT,  Password (ID),    FOREIGN KEY(Hack_Details_ID));
+show PASWORDS
+;
+use passwordsUSE PASSWORDS;
+USE PASSWORDS;
+CREATE TABLE Hacked_Passwords( 
+ID int NOT NULL AUTO_INCREMENT,
+Password VARCHAR(250), 
+PRIMARY KEY (ID),
+FOREIGN KEY(Hack_Details_ID));
+CREATE TABLE Hacked_Passwords(  ID int NOT NULL AUTO_INCREMENT,  Password VARCHAR(250),  PRIMARY KEY (ID),  FOREIGN KEY(Hack_Details_ID));
+CREATE TABLE Hacked_Passwords( 
+ID int NOT NULL AUTO_INCREMENT,
+Password VARCHAR(250), 
+PRIMARY KEY (ID),
+FOREIGN KEY(Hack_Details_ID);
+CREATE TABLE Hacked_Passwords(  ID int NOT NULL AUTO_INCREMENT,  Password VARCHAR(250),  PRIMARY KEY (ID),  FOREIGN KEY(Hack_Details_ID);
+show tables
+;
+CREATE TABLE Hacked_Passwords( 
+ID int NOT NULL AUTO_INCREMENT,
+Password VARCHAR(250), 
+PRIMARY KEY (ID),
+;
+CREATE TABLE Hacked_Passwords(  ID int NOT NULL AUTO_INCREMENT,  Password VARCHAR(250),  PRIMARY KEY (ID),;
+CREATE TABLE Hacked_Passwords( 
+ID int NOT NULL AUTO_INCREMENT,
+Password VARCHAR(250), 
+PRIMARY KEY (ID),
+)/
+;
+CREATE TABLE Hacked_Passwords(  ID int NOT NULL AUTO_INCREMENT,  Password VARCHAR(250),  PRIMARY KEY (ID),  )/;
+CREATE TABLE Hacked_Passwords( 
+ID int NOT NULL AUTO_INCREMENT,
+Password VARCHAR(250), 
+PRIMARY KEY (ID),
+);
+CREATE TABLE Hacked_Passwords(  ID int NOT NULL AUTO_INCREMENT,  Password VARCHAR(250),  PRIMARY KEY (ID),  );
+CREATE TABLE Hacked_Passwords();
+use PASSWORDS
+CREATE TABLE Hacked_Passwords( 
+ID int NOT NULL AUTO_INCREMENT,
+;
+CREATE TABLE Hacked_Passwords(  ID int NOT NULL AUTO_INCREMENT,;
+CREATE TABLE Hacked_Passwords(  ID int NOT NULL AUTO_INCREMENT);
+CREATE TABLE Hacked_Passwords(ID int NOT NULL AUTO_INCREMENT,PRIMARY KEY (ID));
+drop table Hack_Passwords
+;
+drop table Hacked_Passwords;
+show tables
+;
+CREATE TABLE Hacked_Passwords(ID int NOT NULL AUTO_INCREMENT,Password VARCHAR(250),PRIMARY KEY (ID));
+show tablrs
+;
+show tables;
+desc Hacked_Passwords
+;
+drop table Hacked_Passwords
+;
+CREATE TABLE Hacked_Passwords(ID int NOT NULL AUTO_INCREMENT,Password VARCHAR(250),Hack_ID int(5),PRIMARY KEY (ID));
+desc Hacked_Passwords
+;
+drop table Hacked_Passwords
+;
+CREATE TABLE Hacked_Passwords(ID int NOT NULL AUTO_INCREMENT,Password VARCHAR(250),Hack_ID int(5),FOREIGN KEY(Hack_Details_ID),PRIMARY KEY (ID));
+CREATE TABLE Hacked_Passwords(ID int NOT NULL AUTO_INCREMENT,Password VARCHAR(250),Hack_ID int(5),PRIMARY KEY (ID));
+drop table Hacked_Passwords
+;
+CREATE TABLE Hacked_Passwords(ID int NOT NULL AUTO_INCREMENT,Password VARCHAR(250),Hack_ID int(5),PRIMARY KEY (ID), FOREIGN KEY(Hack_Details_ID));
+drop table Hacked_Passwords
+;
+CREATE TABLE Hacked_Passwords(ID int NOT NULL AUTO_INCREMENT,Password VARCHAR(250),Hack_ID int(5),PRIMARY KEY (ID));
+desc Hacked_Passwords
+;
+drop table Hacked_Passwords
+;
+drop table Hacked_Passwords;
+CREATE TABLE Hacked_Passwords(ID int NOT NULL AUTO_INCREMENT,Password VARCHAR(250),Hack_ID int(5),PRIMARY KEY (ID));
+desc Hacked_Passwords
+;
+CREATE TABLE Hack_Details(ID int (6), Hack_Date DATE, PRIMARY KEY (ID));
+desc Hack_Details
+;
+desc Hack_Details;
+drop table Hack_Details
+;
+drop table Hack_Details;
+CREATE TABLE Hack_Details(ID int (6), Hack_Date DATE, Hack_Discription VARCHAR(250), Hack_URI VARCHAR(250), PRIMARY KEY (ID));
+desc Hack_Details;
+drop table Hack_Details;
+CREATE TABLE Hack_Details(ID int (6), Hack_Date DATE, Hack_Discription TEXT, Hack_URI VARCHAR(250), PRIMARY KEY (ID));
+desc Hack_Details;
+LOAD DATA LOCAL INFILE '/usr/share/wordlists/rockyou.txt' INTO TABLE Hacked_Passwords;
+desc Hacked_Passwords
+;
+select * from Hacked_Passwords
+;
+use PASSWORDS
+select * from Hacked_Passwords;
+drop table Hacked_Passwords
+;
+CREATE TABLE Hacked_Passwords(ID big int NOT NULL AUTO_INCREMENT,Password VARCHAR(250),Hack_ID int(5),PRIMARY KEY (ID));
+CREATE TABLE Hacked_Passwords(ID bigint NOT NULL AUTO_INCREMENT,Password VARCHAR(250),Hack_ID int(5),PRIMARY KEY (ID));
+select * from Hacked_Passwords;
+desc Hacked_Passwords
+;
+LOAD DATA LOCAL INFILE '/usr/share/wordlists/rockyou.txt' INTO TABLE Hacked_Passwords;
+select * from Hacked_Passwords;
+use PASSWORDS
+select * from Hacked_Passwords;
+use PASSWORDS
+select * from Hacked_Passwords;
+drop table Hacked_passwords
+;
+drop table Hacked_Passwords
+;
+CREATE TABLE Hacked_Passwords(Password VARCHAR(250),Hack_ID int(5),PRIMARY KEY (Password));
+CREATE TABLE Hacked_Passwords(Password VARCHAR(250),Hack_ID int(5));
+LOAD DATA LOCAL INFILE '/usr/share/wordlists/rockyou.txt' INTO TABLE Hacked_Passwords;
+select * from Hacked_Passwords;
+use PASSWORDS
+select * from Hacked_Passwords;
+select * from Hacked_Passwords limit 5
+;
+select * from Hacked_Passwords limit 100
+;
+quit;
+update user set password=PASSWORD('mouse') where User='root';
+use PASSWORDS
+show tables;
+desc Hack_ADetails
+;
+desc Hack_Details;
+show databases
+;
+;5~GRANT ALLPRIVILEGES ON PASSWORDS.* TO 'root'@'localhost';
+GRANT ALLPRIVILEGES ON PASSWORDS.* TO 'root'@'localhost';
+exit;
+GRANT ALLPRIVILEGES ON PASSWORDS.* TO 'root'@'localhost';
+GRANT ALLPRIVILEGES ON *.* TO 'root'@'localhost';
+show database
+;
+show databases
+;
+use mysql
+show tables
+;
+SELECT  User, Host, Password FROM mysql.user;
+SELECT  *  FROM mysql.user;
+SELECT  User, Host, Password FROM mysql.user;
+xit
+exit
+;
+xit exit;
+exit;
+GRANT ALL PRIVILEGES ON *.* TO 'martin'@'localhost' IDENTIFIED BY 'MouseCatDog';
+SELECT  User, Host, Password FROM mysql.user;
+use PASSWORDS
+show tables
+;
+$sql = "SELECT ID, Hack_Date, Hack_Discription FROM Hack_Details";
+SELECT ID, Hack_Date, Hack_Discription FROM Hack_Details;
+desc Hacked_Passwords
+;
+SELECT Password, Hack_ID FROM Hacked_Passwords
+;
+SELECT Password, Hack_ID FROM Hacked_Passwords;
+exit;
+show tables
+;
+desc Hacked_Passwords;
+select Password form Hacked_Passwords limit 10;
+select Password form Hacked_Passwords;
+select Password from Hacked_Passwords limit 10;
+select Password from Hacked_Passwords where Password='123456';
+select Password from Hacked_Passwords where Password='FoxeyCat';
+select Password from Hacked_Passwords where Password='123456';
+select Password from Hacked_Passwords where Password='password';
+select Password from Hacked_Passwords where BINARY Password='password';
+select Password from Hacked_Passwords where Password BINARY ='password';
+select Password from Hacked_Passwords where Password = BINARY 'password';
+alter table Hacked_Passwords add index (Password);
+select Password from Hacked_Passwords where Password='123456';
+select Password from Hacked_Passwords limit 10;
+select Password from Hacked_Passwords where Password='iloveyou';
+select Password from Hacked_Passwords where Password = BINARY 'iloveyou';
+select Password from Hacked_Passwords limit 20;
+select Password from Hacked_Passwords where Password = BINARY 'qwerty';
+select Password from Hacked_Passwords where Password = 'qwerty';
+select Password from Hacked_Passwords limit 30;
+select Password from Hacked_Passwords where Password = 'password1';
+select Password from Hacked_Passwords where Password = 'FoxeyCat';
+quit;
+show tables
+;
+desc Hacked_Passwords;
+select Hack_ID form Hacked_Passwords where Password = BINARY 'password';
+select Hack_ID form Hacked_Passwords where Password = 'password';
+select Password from Hacked_Passwords where Password = BINARY 'qwerty';
+select Hack_ID from Hacked_Passwords where Password = BINARY 'qwerty';
+SELECT Password FROM Hacked_Passwords WHERE Password = BINARY 'qwerty';
+show tables;
+desc Hack_Details;
+SELECT ID,Hack_Date,Hack_Discription,Hack_URI WHERE ID=1;
+SELECT ID,Hack_Date,Hack_Discription,Hack_URI FROM Hack_Details WHERE ID=1;
+quit;
+SELECT Hack_ID FROM Hacked_Passwords WHERE Password = BINARY 'qwerty';
+SELECT Hack_ID FROM Hacked_Passwords WHERE Password = BINARY 'password';
+SELECT Hack_ID FROM Hacked_Passwords WHERE Password = BINARY 'qwerty';
+quit;
+Hack_ID FROM Hacked_Passwords Limit 10;
+select Hack_ID FROM Hacked_Passwords Limit 10;
+SELECT Hack_ID FROM Hacked_Passwords Limit 10;
+quit;
+desc Hacked_Passwords;
+insert into Hacked_Passwords Password='password', Hack_ID=2;
+insert into Hacked_Passwords (Password, Hack_ID) values('password',2);
+quit;
+desc Hack_Details;
+insert into Hack_Details (ID,Hack_Date,Hack_Description,Hack_URI) VALUES(2,'2001-01-01','Dummy Hack','www.nourl.com');
+insert into Hack_Details (ID,Hack_Date,Hack_Discription,Hack_URI) VALUES(2,'2001-01-01','Dummy Hack','www.nourl.com');
+SELECT ID,Hack_Date,Hack_Discription,Hack_URI FROM Hack_Details WHERE ID=1 OR ID=2;
+quit;
+SELECT ID,Hack_Date,Hack_Discription,Hack_URI FROM Hack_Details WHERE ID=1 OR ID=2;
+quit;
+SHOW GRANTS FOR 'martin'@'localhost';
+REVOKE DROP ON *.* FROM 'martin'@'localhost';
+SHOW GRANTS FOR 'martin'@'localhost';
+FLUSH PRIVILEGES;
+REVOKE INSERT, UPDATE, DELETE, CREATE, RELOAD, SHUTDOWN, PROCESS, FILE, REFERENCES, INDEX, ALTER, SHOW DATABASES, SUPER, CREATE TEMPORARY TABLES, LOCK TABLES, EXECUTE, REPLICATION SLAVE, REPLICATION CLIENT, CREATE VIEW, SHOW VIEW, CREATE ROUTINE, ALTER ROUTINE, CREATE USER, EVENT, TRIGGER, CREATE TABLESPACE ON *.* FROM 'martin'@'localhost';
+FLUSH PRIVILEGES;
