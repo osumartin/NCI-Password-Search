@@ -85,7 +85,6 @@ $my_display = new ManageDisplay;
 // this will display  the contents of my_pwd
 $my_display->display_results($hack_details);
 
- 
 ?>
 
 </body>
