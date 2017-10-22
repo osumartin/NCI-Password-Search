@@ -12,8 +12,6 @@ class ManageDisplay {
     }
 
     private function display_HTML($result_arr){
-        $c = count($result_arr);
-        if ($c >0){
         echo "<p><table border=1>";
         if (is_array($result_arr)){
             echo "<tr>";
@@ -30,11 +28,10 @@ class ManageDisplay {
             echo "</tr>";
         } else {
             echo "<tr><td>$result_arr</td></tr>";
-        } // end if is_array   
+        } // end if is_array
+        
+        
         echo "</table></p>";
-        } else {
-            echo "<p>Password not found in any known hack</p>";
-        } // end count > 0
     }
 } // End ManageDisplay 
 
