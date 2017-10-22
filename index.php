@@ -1,16 +1,12 @@
 <!DOCTYPE HTML>  
 <html lang="en">
-
-		<head>
-
-			<meta charset="UTF-8">
-			<link rel="stylesheet" href="css/stylesheet.css">
-
-
-		<title> Test Your Password To Determon How Secure It Is </title>
-
-
-</head>
+        <head>
+        	<meta charset="UTF-8">
+        	<link rel="stylesheet" href="css/stylesheet.css">
+        	<script type="text/javascript" src="js/jquery.min.js"></script>
+        	<script type="text/javascript" src="js/strength.js"></script> 
+        	<title> Test Your Password To Determon How Secure It Is </title>
+        </head>
 <body>  
 
 <?php
@@ -65,20 +61,36 @@ function test_input($data) {
 }
 ?>
 
-<h2>Test Your Password</h2>
+<h1>Test Your Password</h1>
 
 <form method="post" action="index.php">
-<label for="password">Password:</label>  <input type="password" name="password" autofocus>
+<label for="password">Password:</label> 
+<input type="password" name="password" id="fmPass" autofocus>
+<input type="submit" name="submit" value="Check Database of Known Hacked Passwords"> 
 
-<?php echo $passwordErr;?></span>
-  <br><br>
-
-
-  <input type="submit" name="submit" value="Submit">  
+<?php echo $passwordErr;?>
+  <h2>Geek's Password Strength Meter </h2>
+  <p>This is the strength meter that every site should show when you're creating an account with them. It tells you how many possible passwords there are based on the length and character classes used.</p>
+  <p>The password "1p" has 2 characters, one  a lowercase letter and one a number.  To brute force this password, there are 26 possible letters and 10 possible numbers which is (10 + 26) * (10 + 26) = 1,296 possibilities
+    . Less than a second to crack!
+  </p>
+  <p>These numbers are only for demonstration purposes.  Please do your own research on password security!  The numbers are derived from <a href="http://hashcat.net/oclhashcat-plus/">hashcat's site</a>.</p>
+  <br />	
+  <div id="passwordIndicator" >
+        <p>
+            <span  id="possibilities" class="reset"></span>
+        </p>
+        <p>
+        Time to crack using <input type="text" id="nodes" value="1" size="5" /> core(s):
+        </p>
+        <p>
+        <span id="rates" class="reset"></span>
+        </p>
+    </div>
 </form>
 
 <?php
-echo "<h2>Your Input:</h2>";
+echo "<h2>Hacked Passwords</h2>";
 //this function  displays the results of the search
 
 $my_display = new ManageDisplay;

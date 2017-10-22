@@ -14,7 +14,7 @@ class ManageDisplay {
     private function display_HTML($result_arr){
         $c = count($result_arr);
         if ($c >0){
-        echo "<p><table border=1>";
+        echo "<table border=1>";
         if (is_array($result_arr)){
             echo "<tr>";
             foreach ($result_arr as $value) {
@@ -31,7 +31,7 @@ class ManageDisplay {
         } else {
             echo "<tr><td>$result_arr</td></tr>";
         } // end if is_array   
-        echo "</table></p>";
+        echo "</table>";
         } else {
             echo "<p>Password not found in any known hack</p>";
         } // end count > 0
