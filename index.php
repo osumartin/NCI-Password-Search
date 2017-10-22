@@ -72,11 +72,6 @@ $my_pwd = $obj_test_my_password->getPWD();
 
 $hack_details = $obj_test_my_password->get_hack_details();
 
-//this function  displays the results of the search
-
-$my_display = new ManageDisplay;
-// this will display  the contents of my_pwd
-$my_display->display_results($hack_details);
 
 }
 
@@ -102,7 +97,12 @@ function test_input($data) {
 
 <?php
 echo "<h2>Your Input:</h2>";
-echo $password;
+//this function  displays the results of the search
+
+$my_display = new ManageDisplay;
+// this will display  the contents of my_pwd
+$my_display->display_results($hack_details);
+
 ?>
 
 </body>
