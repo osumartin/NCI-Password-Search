@@ -89,7 +89,7 @@ function test_input($data) {
 ?>
 
 <h2>Test Your Password</h2>
-<!-- <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> -->
+
 <form method="post" action="index.php">
 <label for="password">Password:</label>  <input type="password" name="password" autofocus>
 
