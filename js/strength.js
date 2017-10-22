@@ -1,42 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta charset="utf-8">
-<head>
-<title>Password Strength Checker</title>
-</head> 
-<body>
-	<H1>Geek's Password Strength Meter </h1>
-
-
-    This is the strength meter that every site should show when you're creating an account with them. It tells you how many possible passwords there are based on the length and character classes used.
-
-
-<p>
-The password "1p" has 2 characters, one  a lowercase letter and one a number.  To brute force this password, there are 26 possible letters and 10 possible numbers which is (10 + 26) * (10 + 26) = 1,296 possibilities
-    . Less than a second to crack!
-</p>
-
-<p >These numbers only for demonstration purposes.  Please do your own research on password security!  The numbers are derived from <a href="http://hashcat.net/oclhashcat-plus/">hashcat's site</a>.</p>
-
-<p>
-<label class=""  for="fmPass">
-<span>Password</span>    
-    
-<input id="fmPass" type="password" value="" name="Pass" maxlength="100">
-</label>
-</p>
-    <div id="passwordIndicator" >
-        <p>
-            <span  id="possibilities" class="reset"></span>
-        </p>
-        <p>
-        Time to crack using <input type="text" id="nodes" value="1" size="5" /> core(s):
-        </p>
-        <p>
-        <span  id="rates" class="reset"></span>
-        </p>
-    </div>
-<script>
 function strengthMeter(passwordFieldId, nodes) {
 
     // init undefined 
@@ -187,8 +148,4 @@ function toFixed(x) {
             }   
         }
     });
-
-</script>
-</body>
-</html>
 
