@@ -8,6 +8,19 @@
         	<title> Test Your Password To Determon How Secure It Is </title>
         </head>
 <body>  
+<!-- Start body section -->
+  <div id="body" class="body">
+    <!-- Start menu -->
+          <div id="menu" class="menu">
+            <p>
+                <a href="index.html">Home</a> |
+                <a href="index.html">Home 2</a> |
+            </p>
+          </div>
+      <!-- End menu section -->
+   <!-- Start body text -->
+       <div id="body_text" class="body_text">
+                                                  
 
 <?php
 
@@ -88,17 +101,23 @@ function test_input($data) {
         </p>
     </div>
 </form>
-
+  <h2>Hacked Passwords</h2>
 <?php
-echo "<h2>Hacked Passwords</h2>";
 //this function  displays the results of the search
-
-$my_display = new ManageDisplay;
-// this will display  the contents of my_pwd
-$my_display->display_results($hack_details);
-
- 
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $my_display = new ManageDisplay;
+    // this will display  the contents of my_pwd
+    $my_display->display_results($hack_details);
+  } // end if Method == POST
 ?>
-
+   </div>
+  <!-- End body text -->
+  <!-- Start Footer -->
+  <div id="footer" class="footer">
+    <p>Footer text goes here</p>
+  </div>
+  <!-- End Footer -->	
+   </div>
+  <!-- End body section -->
 </body>
 </html>
