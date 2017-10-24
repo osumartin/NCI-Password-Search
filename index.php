@@ -94,7 +94,7 @@ function test_input($data) {
             <span  id="possibilities" class="reset"></span>
         </p>
         <p>
-        Time to crack using <input type="text" id="nodes" value="1" size="5" /> core(s):
+        Time to crack using <input type="number" id="nodes" value="1" size="5" /> core(s):
         </p>
         <p>
         <span id="rates" class="reset"></span>

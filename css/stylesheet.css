@@ -24,3 +24,24 @@ h1{
 #menu a:hover { background-color: yellow; color:black; text-decoration:underline; font-weight:bold; }
 #menu a:active { color: yellow; text-decoration:underline; font-weight:bold; }
 .footer {background-color: black; color: white; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px;}
+
+/*this code manages the display of the text entry fields in the forms.*/
+
+input[type=password] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/*this code manages the colour of the form elements when they are selected by the user.*/
+
+
+input[type=password]:focus {
+    background-color: lightblue;
+}
+
+input[type=number]:focus {
+    background-color: lightblue;
+}
+

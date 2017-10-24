@@ -44,13 +44,35 @@ function strengthMeter(passwordFieldId, nodes) {
     var secSHA1 = secondsToStr(toFixed(strength/(rateSHA1*nodes)));
     var secMd5crypt = secondsToStr(toFixed(strength/(rateMd5crypt*nodes)));
     var secBcrypt = secondsToStr(toFixed(strength/(rateBcrypt*nodes)));
-    
+
+
+     // Display the results   
     var rates = "MD5: " + secMd5 + " <br/>" +
         "SHA1: " + secSHA1 +  "<br/>" +
         "MD5Crypt: " + secMd5crypt + "<br/>" +
         "Bcrypt: " + secBcrypt + "<br/>" +
        " ";
     
+/*
+//in a table
+    var rates = "<table>"
+		  "<tr>"
+		    "<th>MD5</th>"
+		    "<th>SHA1</th>"
+		    "<th>MD5Crypt</th>"
+		    "<th>Bcrypt</th>"
+		  "</tr>"
+		  "<tr>"
+		    "<td>" + secMd5 + "</td>" +
+		    "<td>"+ secSHA1 +  "</td>" +
+		    "<td>"+ secMd5crypt + "</td>" +
+		    "<td>"  + secBcrypt + "</td>" +
+		  "</tr>"
+		"</table>"
+		" ";
+*/
+    
+
     // if null, don't show anything
     if (password.length > 0) {
         $("#passwordIndicator").show();
