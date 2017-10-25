@@ -79,7 +79,7 @@ function test_input($data) {
 <form method="post" action="index.php">
 <label for="password"></label> 
 <input type="password" name="password" id="fmPass" autofocus placeholder="Enter The Password You Want To Test" value="">
-<input type="submit" name="submit" value="Check Database of Known Hacked Passwords"> 
+<input type="submit" name="submit" value="Check Password"> 
 
 <?php echo $passwordErr;?>
 
