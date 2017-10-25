@@ -77,8 +77,8 @@ function test_input($data) {
 <h1>Test Your Password</h1>
 
 <form method="post" action="index.php">
-<label for="password">Password:</label> 
-<input type="password" name="password" id="fmPass" autofocus>
+<label for="password"></label> 
+<input type="password" name="password" id="fmPass" autofocus placeholder="Enter The Password You Want To Test" value="">
 <input type="submit" name="submit" value="Check Database of Known Hacked Passwords"> 
 
 <?php echo $passwordErr;?>
@@ -95,7 +95,7 @@ function test_input($data) {
         </p>
     </div>
 </form>
-  <h2>Hacked Passwords</h2>
+
 <?php
 //this function  displays the results of the search
   if ($_SERVER["REQUEST_METHOD"] == "POST") {

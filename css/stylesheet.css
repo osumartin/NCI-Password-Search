@@ -17,7 +17,7 @@ h1{
 /* Classes to control layout */
 
 .body {background-color: white; margin-top: 20px; margin-bottom: 20px; margin-left: 40px; margin-right: 40px;}
-.body_text {padding-left:5px; padding-right:5px;}
+.body_text {padding-left:5px; padding-right:5px; text-align: center;}
 .menu {background-color: black; color: white; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px;}
 #menu a:link { color:#ffffff; text-decoration:underline; font-weight:bold; }
 #menu a:visited { color: #ffffff; text-decoration:underline; font-weight:bold; }
@@ -32,6 +32,7 @@ input[type=password] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 /*this code manages the colour of the form elements when they are selected by the user.*/
