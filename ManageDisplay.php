@@ -14,23 +14,7 @@ class ManageDisplay {
     private function display_HTML($result_arr){
         $c = count($result_arr);
         if ($c >0){
-        echo "<table>";
-	echo "<tr>";
-
-	echo "<th> Hack ID </th>";
-	echo "<th>";
-	echo "Hack Date";
-	echo "</th>";
-
-	echo "<th>";
-	echo "Hack Details";
-	echo "</th>";
-
-	echo "<th>";
-	echo "Hack URI";
-	echo "</th>";
-	echo "</tr>";
-
+        echo "<table><tr><th> Hack ID </th><th>Hack Date</th><th>Hack Details</th><th>Hack URI</th></tr>";
 
         if (is_array($result_arr)){
             echo "<tr>";
