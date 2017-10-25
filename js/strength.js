@@ -45,7 +45,7 @@ function strengthMeter(passwordFieldId, nodes) {
     var secMd5crypt = secondsToStr(toFixed(strength/(rateMd5crypt*nodes)));
     var secBcrypt = secondsToStr(toFixed(strength/(rateBcrypt*nodes)));
 
-    var rates = "<table border=1><th>MD5</th>";
+    var rates = "<table><th>MD5</th>";
     rates+= "<th>SHA1</th>";
     rates+="<th>MD5Crypt</th>";
     rates+="<th>Bcrypt</th>";
