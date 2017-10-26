@@ -59,7 +59,7 @@ function strengthMeter(passwordFieldId, nodes) {
     // if null, don't show anything
     if (password.length > 0) {
         $("#passwordIndicator").show();
-        $("#possibilities").html(numberWithCommas(strength) + " Fucking Possibilities");
+        $("#possibilities").html(numberWithCommas(strength) + "Possibilities");
         $("#nodes").val(nodes);
         $("#rates").html(rates);
     } else {
