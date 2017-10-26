@@ -104,9 +104,9 @@ function test_input($data) {
     $my_display->display_results($hack_details);
   } // end if Method == POST
 ?>
-  <h2>Geek's Password Strength Meter </h2>
-  <p>This is the strength meter that every site should show when you're creating an account with them. It tells you how many possible passwords there are based on the length and character classes used.</p>
-  <p>The password "1p" has 2 characters, one  a lowercase letter and one a number.  To brute force this password, there are 26 possible letters and 10 possible numbers which is (10 + 26) * (10 + 26) = 1,296 possibilities
+
+  <p>you can use This  strength meter when you're creating an account on any site. It will tell  you how many possible passwords there are based on the length and character classes used.</p>
+  <p>For example, the password "1p" has 2 characters, one  a lowercase letter and one a number.  To brute force this password, there are 26 possible letters and 10 possible numbers which is (10 + 26) * (10 + 26) = 1,296 possibilities
     . Less than a second to crack!
   </p>
   <p>These numbers are only for demonstration purposes.  Please do your own research on password security!  The numbers are derived from <a href="http://hashcat.net/oclhashcat-plus/">hashcat's site</a>.</p>
