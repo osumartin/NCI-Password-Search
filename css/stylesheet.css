@@ -1,6 +1,6 @@
 /* body element only used to set background colour */
 body {
-   background-color: powderblue;
+   background-color: #4CAF50;
 }
 
 p {
@@ -87,16 +87,16 @@ input[type=password] {
 
 
 input[type=password]:focus {
-    background-color: powderblue;
+    background-color: #4CAF50;
     color #000000;
 }
 
 input[type=number]:focus {
-    background-color: lightblue;
+    background-color: #4CAF50;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-    background-color: #0000ff;
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -120,7 +120,7 @@ td, th {
 }
 th {
     text-align: left;
-    background-color: powderblue;
+    background-color: #4CAF50;
     color: #000000;
 
 }
