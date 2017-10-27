@@ -45,7 +45,7 @@ function strengthMeter(passwordFieldId, nodes) {
     var secMd5crypt = secondsToStr(toFixed(strength/(rateMd5crypt*nodes)));
     var secBcrypt = secondsToStr(toFixed(strength/(rateBcrypt*nodes)));
 
-    var rates ="  <h2>How Long Can Your Password Resist Attack?</h2>"; 
+    var rates ="  <h2>How Long Can Your Password Resist A Simple Brute Force Attack?</h2>"; 
     rates+= "<table><th>MD5</th>";
     rates+= "<th>SHA1</th>";
     rates+="<th>MD5Crypt</th>";
@@ -59,7 +59,7 @@ function strengthMeter(passwordFieldId, nodes) {
     // if null, don't show anything
     if (password.length > 0) {
         $("#passwordIndicator").show();
-        $("#possibilities").html("Your Password Has "+ numberWithCommas(strength) + " Possibilities");
+        $("#possibilities").html("<b>Your Password Has "+ numberWithCommas(strength) + " Possibilities</b>");
         $("#nodes").val(nodes);
         $("#rates").html(rates);
     } else {
