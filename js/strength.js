@@ -45,11 +45,11 @@ function strengthMeter(passwordFieldId, nodes) {
     var secMd5crypt = secondsToStr(toFixed(strength/(rateMd5crypt*nodes)));
     var secBcrypt = secondsToStr(toFixed(strength/(rateBcrypt*nodes)));
 
-    var rates ="  <h2>How Long Can Your Password Resist A Simple Brute Force Attack?</h2>"; 
-    rates+= "<table><th>MD5</th>";
-    rates+= "<th>SHA1</th>";
-    rates+="<th>MD5Crypt</th>";
-    rates+="<th>Bcrypt</th>";
+//display the result in a table
+    var rates ="<table><caption><h2>How Long Can Your Password Resist A Simple Brute Force Attack</h2></caption><th>MD5</th>";
+    rates+= "<th scope=" +"col"+">SHA1</th>";
+    rates+="<th scope=" +"col"+">MD5Crypt</th>";
+    rates+="<th scope=" +"col"+">Bcrypt</th>";
     rates+="<tr><td>" + secMd5 + "</td>";
     rates+="<td>" + secSHA1 +"</td>";
     rates+="<td>" + secMd5crypt + "</td>";
@@ -77,11 +77,6 @@ $(document).ready(function() {
     });
     strengthMeter("fmPass",$("#nodes").val());
 });
-
-
-
-
-
 
 // thanks http://stackoverflow.com/questions/2901102/how-to-print-number-with-commas-as-thousands-separators-in-javascript
 function numberWithCommas(x) {
