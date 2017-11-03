@@ -10,14 +10,13 @@ Count the number of passwords in the downloaded files.
 wc -l rockyou.txt
 
 Import passwords into the database
-LOAD DATA LOCAL INFILE '/usr/share/wordlists/SecLists/Passwords/MostPopularLetterPasses.txt' INTO TABLE Hacked_Passwords;
+LOAD DATA LOCAL INFILE '/usr/share/wordlists/SecLists/Passwords/000webhost.txt' INTO TABLE Hacked_Passwords;
 
 create information for the hacks
-insert into Hack_Details (ID,Hack_Date,Hack_Discription,Hack_URI) VALUES(3,'2001-01-01','List of Most common passwords','https://github.com/danielmiessler/SecLists.git');
+insert into Hack_Details (ID,Hack_Date,Hack_Discription,Hack_URI) VALUES(4,'2001-01-01','List of Most common passwords','https://github.com/danielmiessler/SecLists.git');
 
 Manually set the id for the hacks
-
-update Hacked_Passwords set Hack_ID = "3" where Hack_ID is null;
+update Hacked_Passwords set Hack_ID = "4" where Hack_ID is null;
 
 improved the search time 
 alter table Hacked_Passwords add index (Password);
