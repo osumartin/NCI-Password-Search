@@ -6,9 +6,9 @@
         	<link rel="stylesheet" href="css/stylesheet.css">
         	<script type="text/javascript" src="js/jquery.min.js"></script>
         	<script type="text/javascript" src="js/strength.js"></script> 
-        	<title> Test Your Password To Determon How Secure It Is </title>
+        	<title> Type Your Password To Test How Secure It Is </title>
         </head>
-<body>  
+<body>
 <!-- Start body section -->
   <div id="body" class="body">
     <!-- Start menu -->
@@ -21,7 +21,6 @@
       <!-- End menu section -->
    <!-- Start body text -->
        <div id="body_text" class="body_text">
-                                                  
 
 <?php
 
@@ -111,7 +110,7 @@ function test_input($data) {
     . Less than a second to crack!
   </p>
   <p>These numbers are only for demonstration purposes.  Please do your own research on password security!  The numbers are derived from <a href="http://hashcat.net/oclhashcat-plus/">hashcat's site</a>.</p>
-  <br />	
+  <br />
 
    </div>
   <!-- End body text -->
@@ -119,7 +118,7 @@ function test_input($data) {
   <div id="footer" class="footer">
     <p>Footer text goes here</p>
   </div>
-  <!-- End Footer -->	
+  <!-- End Footer -->
    </div>
   <!-- End body section -->
 </body>
