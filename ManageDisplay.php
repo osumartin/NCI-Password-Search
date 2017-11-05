@@ -21,7 +21,10 @@ class ManageDisplay {
             foreach ($result_arr as $value) {
                 if (is_array($value)){
                     foreach ($value as $value2) {
-                        echo "<td>$value2</td>\n";
+
+//test line below this
+			echo "<td><a href=\"$value2" . $rows['url'] . "\">1$value2</a></td>\n";
+//removed this line for testing			echo "<td>$value2</td>\n";
                     } // end foreach $value as $value2
                     echo "</tr>";
                 } else {
@@ -31,7 +34,7 @@ class ManageDisplay {
             echo "</tr>";
         } else {
             echo "<tr><td>$result_arr</td></tr>";
-        } // end if is_array   
+        } // end if is_array
         echo "</table>";
         } else {
             echo "<p>Password not found in any known hack</p>";
