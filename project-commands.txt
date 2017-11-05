@@ -13,10 +13,10 @@ Import passwords into the database
 LOAD DATA LOCAL INFILE '/usr/share/wordlists/SecLists/Passwords/wordpress_attacks_july2014.txt' INTO TABLE Hacked_Passwords;
 
 create information for the hacks
-insert into Hack_Details (ID,Hack_Date,Hack_Discription,Hack_URI) VALUES(7,'2016-07-01','wordpress attacks','https://github.com/danielmiessler/SecLists.git');
+insert into Hack_Details (ID,Hack_Date,Hack_Discription,Hack_URI) VALUES(8,'2017-11-01','list of valid wireless passwords','http://www.kalitut.com/2015/12/best-password-dictionary.html');
 
 Manually set the id for the hacks
-update Hacked_Passwords set Hack_ID = "7" where Hack_ID is null;
+update Hacked_Passwords set Hack_ID = "8" where Hack_ID is null;
 
 improved the search time 
 alter table Hacked_Passwords add index (Password);
