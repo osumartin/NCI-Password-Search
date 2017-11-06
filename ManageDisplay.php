@@ -23,12 +23,12 @@ class ManageDisplay {
                     		$i = 0;
 				foreach ($value as $value2) {
 				//write out the array but dont make the items clickable. 
-					if (i < 2) {
+					if ($i < 3) {
 						echo "<td>$value2 $i</td>\n";
 					}
 				//write out the array but make the link clickable
 					else {
-						echo "<td>$value2</td>\n"; 
+						echo "<td>$value2</td>\n";
 					}
 				$i ++;
 		                } // end foreach $value as $value2
