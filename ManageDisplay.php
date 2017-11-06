@@ -20,12 +20,18 @@ class ManageDisplay {
             echo "<tr>";
             foreach ($result_arr as $value) {
                 if (is_array($value)){
-                    foreach ($value as $value2) {
-
-//test line below this
-//			echo "<td><a href=\"$value2" . $rows['url'] . "\">1$value2</a></td>\n";
-			echo "<td>$value2</td>\n";
-                    } // end foreach $value as $value2
+                    		$i = 0;
+				foreach ($value as $value2) {
+				$i ++;
+				//write out the array but dont make the items clickable. 
+					if (i < 4) {
+						echo "<td>$value2$i</td>\n";
+					}
+				//write out the array but make the link clickable
+					else {
+						echo "<td>$value2</td>\n"; 
+					}
+		                } // end foreach $value as $value2
                     echo "</tr>";
                 } else {
                     echo "<td>$value</td>\n";
