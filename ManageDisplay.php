@@ -24,7 +24,7 @@ class ManageDisplay {
 				foreach ($value as $value2) {
 				$i ++;
 				//write out the array but dont make the items clickable. 
-					if (i < 3) {
+					if (i > 3) {
 						echo "<td>$value2$i</td>\n";
 					}
 				//write out the array but make the link clickable
