@@ -23,8 +23,8 @@ class ManageDisplay {
                     foreach ($value as $value2) {
 
 //test line below this
-			echo "<td><a href=\"$value2" . $rows['url'] . "\">1$value2</a></td>\n";
-//removed this line for testing			echo "<td>$value2</td>\n";
+//			echo "<td><a href=\"$value2" . $rows['url'] . "\">1$value2</a></td>\n";
+			echo "<td>$value2</td>\n";
                     } // end foreach $value as $value2
                     echo "</tr>";
                 } else {
