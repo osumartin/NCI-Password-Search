@@ -28,7 +28,7 @@ class ManageDisplay {
 					}
 				//write out the array but make the link clickable
 					else {
-						echo "<td>$value2</td>\n";
+						echo "<td><a href=\"$value2" . $rows['id'] . "\">$value2</a></td>";
 					}
 				$i ++;
 		                } // end foreach $value as $value2
