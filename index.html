@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>  
 <html lang="en">
         <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         	<meta charset="UTF-8">
         	<link rel="stylesheet" href="css/stylesheet.css">
         	<script type="text/javascript" src="js/jquery.min.js"></script>
         	<script type="text/javascript" src="js/strength.js"></script> 
-        	<title> Test Your Password To Determon How Secure It Is </title>
+        	<title> Type Your Password To Test How Secure It Is </title>
         </head>
-<body>  
+<body>
 <!-- Start body section -->
   <div id="body" class="body">
     <!-- Start menu -->
@@ -20,16 +21,16 @@
       <!-- End menu section -->
    <!-- Start body text -->
        <div id="body_text" class="body_text">
-                                                  
+
 
 <h1>Test Your Password</h1>
 
 <form method="post" action="index.php">
 <label for="password"></label> 
 <input type="password" name="password" id="fmPass" autofocus placeholder="Enter The Password You Want To Test" value="">
-<input type="submit" name="submit" value="Check Password"> 
+<input type="submit" name="submit" value="Test Password"> 
 
-
+<?php echo $passwordErr;?>
 
   <div id="passwordIndicator" >
         <p>
@@ -44,14 +45,12 @@
     </div>
 </form>
 
-
-  <h2>Geek's Password Strength Meter </h2>
-  <p>This is the strength meter that every site should show when you're creating an account with them. It tells you how many possible passwords there are based on the length and character classes used.</p>
-  <p>The password "1p" has 2 characters, one  a lowercase letter and one a number.  To brute force this password, there are 26 possible letters and 10 possible numbers which is (10 + 26) * (10 + 26) = 1,296 possibilities
+  <p>you can use This  strength meter when you're creating an account on any site. It will tell  you how many possible passwords there are based on the length and character classes used.</p>
+  <p>For example, the password "1p" has 2 characters, one  a lowercase letter and one a number.  To brute force this password, there are 26 possible letters and 10 possible numbers which is (10 + 26) * (10 + 26) = 1,296 possibilities
     . Less than a second to crack!
   </p>
   <p>These numbers are only for demonstration purposes.  Please do your own research on password security!  The numbers are derived from <a href="http://hashcat.net/oclhashcat-plus/">hashcat's site</a>.</p>
-  <br />	
+  <br />
 
    </div>
   <!-- End body text -->
@@ -59,7 +58,7 @@
   <div id="footer" class="footer">
     <p>Footer text goes here</p>
   </div>
-  <!-- End Footer -->	
+  <!-- End Footer -->
    </div>
   <!-- End body section -->
 </body>

@@ -6,7 +6,7 @@
         	<link rel="stylesheet" href="css/stylesheet.css">
         	<script type="text/javascript" src="js/jquery.min.js"></script>
         	<script type="text/javascript" src="js/strength.js"></script> 
-        	<title> Type Your Password To Test How Secure It Is </title>
+        	<title> Type A Password To Test How Secure It Is </title>
         </head>
 <body>
 <!-- Start body section -->
@@ -40,8 +40,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 define('__ROOT__', getcwd());
 
 //import the classes
-require_once(__ROOT__.'/TestMyPassword.php'); 
-require_once(__ROOT__.'/ManageDisplay.php'); 
+require_once(__ROOT__.'/TestMyPassword.php');
+require_once(__ROOT__.'/ManageDisplay.php');
 
 $password="";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -74,7 +74,7 @@ function test_input($data) {
 }
 ?>
 
-<h1>Test Your Password</h1>
+<h1>Test A Password</h1>
 
 <form method="post" action="index.php">
 <label for="password"></label> 
