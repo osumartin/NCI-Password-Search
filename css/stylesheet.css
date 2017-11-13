@@ -73,6 +73,26 @@ h1{
     padding-right:5px;
 }
 
+/*this code manages the display of a logo box it comes from https://haveibeenpwned.com */
+
+.main-logo .logo{
+    border-radius:30px;
+    border:5px solid #fff;
+    font-size:3.15em;
+    padding:8px 20px;
+    background-color:#a2d9ce;
+}
+
+.logoPanel{
+    text-align:center;
+    margin-top:15px
+}
+.logoPanel p{
+    font-size:1.55em;
+    margin:20px 0 0 0;
+    text-align:center
+}
+
 /*this code manages the display of the text entry fields in the forms.*/
 
 input[type=password] {

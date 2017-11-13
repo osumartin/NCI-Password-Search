@@ -27,3 +27,5 @@ git clone https://github.com/danielmiessler/SecLists.git
 Created a list of passwords for wireless networks
 cat rockyou.txt | sort | uniq | pw-inspector -m 8 -M 63 > kalitut.txt
 
+downloaded the stylesheet from haveyoubeenpowned
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://haveibeenpwned.com 
