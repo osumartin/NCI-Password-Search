@@ -6,7 +6,7 @@
         	<link rel="stylesheet" href="css/stylesheet.css">
         	<script type="text/javascript" src="js/jquery.min.js"></script>
         	<script type="text/javascript" src="js/strength.js"></script> 
-        	<title> Type A Password To Test How Secure It Is </title>
+        	<title> Is This Password Secure </title>
         </head>
 <body>
 <!-- Start body section -->
