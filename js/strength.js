@@ -54,7 +54,7 @@ function strengthMeter(passwordFieldId, nodes) {
     rates+="<td>" + secSHA1 +"</td>";
     rates+="<td>" + secMd5crypt + "</td>";
     rates+="<td>" + secBcrypt + "</td></tr></table>";
-  
+
 
     // if null, don't show anything
     if (password.length > 0) {

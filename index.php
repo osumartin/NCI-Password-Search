@@ -62,8 +62,6 @@ $obj_test_my_password->setPWD($password);
 $my_pwd = $obj_test_my_password->getPWD();
 
 $hack_details = $obj_test_my_password->get_hack_details();
-
-
 }
 
 function test_input($data) {
@@ -107,6 +105,11 @@ function test_input($data) {
     $my_display->display_results($hack_details);
   } // end if Method == POST
 ?>
+
+<p>you can use the strength meter when you're creating an account on any site. It will tell you how many possible passwords there are based on the length and character classes used. </p>
+<p>For example, the password "1p" has 2 characters, one a lowercase letter and one a number.  To brute force this password, there are 26 possible letters and 10 possible numbers which is (10 + 26) * (10 + 26) = 1,296 possibilities. Less than a second to crack! </p>
+<p>These numbers are only for demonstration purposes.  Please note that very few password attacks just use brute force, most attacks use rules, which are much more efficient.  Once you are satisfied with the strength of your password, click the "Test Password" button, this will perform another test which will confirm if the password has been disclosed in any attacks, which are loaded on this system. </p>
+<p>The numbers  which are shown above  are derived from <a href="http://hashcat.net/oclhashcat-plus/">hashcat's site</a>.</p>
 
    </div>
   <!-- End body text -->
