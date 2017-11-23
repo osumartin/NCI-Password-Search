@@ -22,4 +22,4 @@ PHP MySQLi Prepared Statements to Prevent SQL	https://websitebeaver.com/prepared
 Remove Permissions for a MySQL User on		https://www.liquidweb.com/kb/remove-permissions-for-a-mysql-user-on-linux-via-command-line/
 Change a Password for MySQL 			https://www.liquidweb.com/kb/change-a-password-for-mysql-on-linux-via-command-line/
 List All Users In The System			https://www.cyberciti.biz/faq/linux-list-users-command/
-
+Enable Apache SSL in Kali 			http://www.r00tsec.com/2013/11/howto-enable-apache-ssl-in-kali.html

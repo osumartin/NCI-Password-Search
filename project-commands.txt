@@ -30,4 +30,16 @@ cat rockyou.txt | sort | uniq | pw-inspector -m 8 -M 63 > kalitut.txt
 downloaded the stylesheet from https://haveibeenpwned.com
 wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://haveibeenpwned.com
 
+Started ssl with a self signed certificate.
+
+1. Enable SSL a2enmod ssl
+2. Enable SSL Site a2ensite ssl
+3. Create new certificate(Don't create and push into conf.d)  openssl req -new -x509 -days 365 -nodes -out /etc/apache2/ssl/apache.pem -keyout /etc/apache2/ssl/apache.key
+openssl req -config /etc/ssl/openssl.cnf -new -out apache.csr -keyout apache.pem
+openssl rsa -in apache.pem -out apache.key 
+4. Use your certificate in /etc/apache2/sites-available/default-ssl 
+SSLCertificateFile    /etc/apache2/ssl/apache.pem
+SSLCertificateKeyFile /etc/apache2/ssl/apache.key 
+5. Restart your apache2
+
 
