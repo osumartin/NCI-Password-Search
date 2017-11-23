@@ -1,11 +1,11 @@
-How to display hiperlinks in php		https://stackoverflow.com/questions/3938903/hyperlink-in-table
+﻿How to display hiperlinks in php		https://stackoverflow.com/questions/3938903/hyperlink-in-table
 Ashley Madison data breach			https://en.wikipedia.org/wiki/Ashley_Madison_data_breach
 How to calculate how many items in a foreach?	https://stackoverflow.com/questions/6220546/count-number-of-iterations-in-a-foreach-loop
 Make Offline Mirror of a Site using `wget`	https://www.guyrutenberg.com/2014/05/02/make-offline-mirror-of-a-site-using-wget/
 NCI-Password-Search				https://github.com/osumartin/NCI-Password-Search.git
 How do I replace all my NULL values in		https://stackoverflow.com/questions/4629202/how-do-i-replace-all-my-null-values-in-a-particular-field-in-a-particular-table
 Password lists on Kali				https://security.stackexchange.com/questions/45850/wordlists-on-kali-linux
- and creating wireless passwords		http://www.kalitut.com/2015/12/best-password-dictionary.html
+and creating wireless passwords			http://www.kalitut.com/2015/12/best-password-dictionary.html
 OWASP SecLists Project				https://www.owasp.org/index.php/OWASP_SecLists_Project
 Sec Lists on Github				https://github.com/danielmiessler/SecLists
 HTML table advanced features and accessibility	https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced
@@ -16,7 +16,7 @@ Geek's Password Strength Meter			https://www.sitepoint.com/geeks-password-streng
 MySQl commands					https://coolestguidesontheplanet.com/start-stop-mysql-from-the-command-line-terminal-osx-linux/
 set_exception_handler				http://php.net/manual/en/function.set-exception-handler.php
 PHP Connections and Connection management 	http://php.net/manual/en/pdo.connections.php
-Sqlmap tutorial for beginners – hacking	http://www.binarytides.com/sqlmap-hacking-tutorial/
+Sqlmap tutorial for beginners – hacking		http://www.binarytides.com/sqlmap-hacking-tutorial/
 SQL Map						https://github.com/sqlmapproject/sqlmap/wiki/Usage
 PHP MySQLi Prepared Statements to Prevent SQL	https://websitebeaver.com/prepared-statements-in-php-mysqli-to-prevent-sql-injection
 Remove Permissions for a MySQL User on		https://www.liquidweb.com/kb/remove-permissions-for-a-mysql-user-on-linux-via-command-line/
