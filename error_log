@@ -1,0 +1,6 @@
+[28-Nov-2017 15:51:50 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'martin'@'localhost' (using password: YES) in /home/passwot1/public_html/NCI-Password-Search/TestMyPassword.php on line 21
+[28-Nov-2017 15:51:50 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/passwot1/public_html/NCI-Password-Search/TestMyPassword.php on line 31
+[28-Nov-2017 15:51:50 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/passwot1/public_html/NCI-Password-Search/TestMyPassword.php on line 37
+[28-Nov-2017 15:52:06 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'martin'@'localhost' (using password: YES) in /home/passwot1/public_html/NCI-Password-Search/TestMyPassword.php on line 21
+[28-Nov-2017 15:52:06 UTC] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/passwot1/public_html/NCI-Password-Search/TestMyPassword.php on line 31
+[28-Nov-2017 15:52:06 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/passwot1/public_html/NCI-Password-Search/TestMyPassword.php on line 37
