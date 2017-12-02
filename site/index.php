@@ -14,8 +14,11 @@
     <!-- Start menu -->
           <div id="menu" class="menu">
             <p>
-                <a href="index.html">Home</a> |
-                <a href="index.html">Home 2</a> |
+                <a href="index.php">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="contact.html">Contact</a> |
+		<a href="news.html">News</a> |
+                <a href="events.html">Events</a>
             </p>
           </div>
       <!-- End menu section -->
@@ -115,7 +118,8 @@ function test_input($data) {
   <!-- End body text -->
   <!-- Start Footer -->
   <div id="footer" class="footer">
-    <p>Footer text goes here</p>
+    <p>Password Test &copy; Martin OSullivan - Test Your Password 
+Against Over 14,000,000 Disclosed Passwords.</p>
   </div>
   <!-- End Footer -->
    </div>
