@@ -1,0 +1,158 @@
+/* body element only used to set background colour */
+body {
+   background-color: #a2d9ce;
+}
+
+p {
+   padding-top:0px; padding-bottom:0px; 
+   padding-left:0px; 
+   padding-right:0px;
+}
+
+h1{
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  color: inherit;
+  text-rendering: optimizelegibility;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+
+/* Classes to control layout */
+
+.body {
+   background-color: white; 
+   margin-top: 20px; 
+   margin-bottom: 20px; 
+   margin-left: 40px; 
+   margin-right: 40px;
+}
+
+.body_text {
+    padding-left:5px; 
+    padding-right:5px; 
+    text-align: center;
+}
+.menu {
+    background-color: black; 
+    color: white; 
+    padding-top:5px; 
+    padding-bottom:5px; 
+    padding-left:5px; 
+    padding-right:5px;
+}
+
+#menu a:link { 
+    color:#ffffff; 
+    text-decoration:underline; 
+    font-weight:bold; 
+}
+
+#menu a:visited { 
+    color: #ffffff; 
+    text-decoration:underline; 
+    font-weight:bold; 
+}
+
+#menu a:hover { 
+    background-color: #ffffff; 
+    color:#000000; 
+    text-decoration:underline; 
+    font-weight:bold; 
+}
+#menu a:active { color: #ffffff; text-decoration:underline; font-weight:bold; }
+.footer {
+    background-color: black; 
+    color: white; 
+    padding-top:5px; 
+    padding-bottom:5px; 
+    padding-left:5px; 
+    padding-right:5px;
+}
+
+/*this code manages the display of a logo box it comes from https://haveibeenpwned.com */
+
+.main-logo .logo{
+    border-radius:30px;
+    border:5px solid #fff;
+    font-size:3.15em;
+    padding:8px 20px;
+    background-color:#a2d9ce;
+}
+
+.logoPanel{
+    text-align:center;
+    margin-top:15px
+}
+.logoPanel p{
+    font-size:1.55em;
+    margin:20px 0 0 0;
+    text-align:center
+}
+
+/*this code manages the display of the text entry fields in the forms.*/
+
+input[type=password] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/*this code manages the colour of the form elements when they are selected by the user.*/
+
+
+input[type=password]:focus {
+    background-color: #a2d9ce;
+    color #000000;
+}
+
+input[type=number]:focus {
+    background-color: #a2d9ce;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #a2d9ce;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* this code manages the tables */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+th {
+    text-align: left;
+    background-color: #a2d9ce;
+    color: #000000;
+
+}
+td {
+    text-align: left;
+}
+tr :hover{
+   color:#ffffff;
+   background-color:#000000;
+}  
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
