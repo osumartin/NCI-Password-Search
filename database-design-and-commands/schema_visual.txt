@@ -4,8 +4,8 @@
 | Hack_Details        |
 | Hacked_Passwords    |
 +---------------------+
-2 rows in set (0.00 sec)
 
+Hack_Details
 +------------------+--------------+------+-----+---------+-------+
 | Field            | Type         | Null | Key | Default | Extra |
 +------------------+--------------+------+-----+---------+-------+
@@ -14,32 +14,13 @@
 | Hack_Discription | text         | YES  |     | NULL    |       |
 | Hack_URI         | varchar(250) | YES  |     | NULL    |       |
 +------------------+--------------+------+-----+---------+-------+
-4 rows in set (0.32 sec)
 
-+------------------+--------------+------+-----+---------+-------+
-| Field            | Type         | Null | Key | Default | Extra |
-+------------------+--------------+------+-----+---------+-------+
-| ID               | int(6)       | NO   | PRI | NULL    |       |
-| Hack_Date        | date         | YES  |     | NULL    |       |
-| Hack_Discription | text         | YES  |     | NULL    |       |
-| Hack_URI         | varchar(250) | YES  |     | NULL    |       |
-+------------------+--------------+------+-----+---------+-------+
-4 rows in set (0.32 sec)
-
+Hacked_Passwords
 +----------+--------------+------+-----+---------+-------+
 | Field    | Type         | Null | Key | Default | Extra |
 +----------+--------------+------+-----+---------+-------+
 | Password | varchar(250) | YES  | MUL | NULL    |       |
 | Hack_ID  | int(5)       | YES  |     | NULL    |       |
 +----------+--------------+------+-----+---------+-------+
-2 rows in set (0.00 sec)
-
-+----------+--------------+------+-----+---------+-------+
-| Field    | Type         | Null | Key | Default | Extra |
-+----------+--------------+------+-----+---------+-------+
-| Password | varchar(250) | YES  | MUL | NULL    |       |
-| Hack_ID  | int(5)       | YES  |     | NULL    |       |
-+----------+--------------+------+-----+---------+-------+
-2 rows in set (0.01 sec)
 
 
