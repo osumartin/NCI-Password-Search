@@ -37,27 +37,27 @@ update-rc.d -f mysql enable 2 3 4 5
 ran SQL Map
 sqlmap --dump -r /var/www/html/NCI-Password-Search/database-design-and-commands/sqlmap.txt -p password --current-user --current-db --is-dba --level 5 --risk 3 --force-ssl
 
-Set Firefox to use a proxi
-in the url bar, type about:preferences#advanced
-Click "network"
-Click "Settings"
-Click "Manual Proxy Configuration"
-Set HTTP proxy to "localhost"
-Set the port to "8080"
-Check the box "Use this proxy server for all protocalls"
-Clear the box "No proxy for"
-Click "OK"
-Start "burpsuit "
-Click "Proxy"
-Click "Options"
-Uncheck "Intercept requests based on the following rools"
-Click "HTTP History"	
-Go back to your web app, and attempt to usit as a user
-once you have submitted a request to your web app, such as a search or entry into a database, then go back to burpsuit
-we are looking to use the request tostart the atack.
-copy the full request into a text file, and call it something memerable such as"sqlmap.txt"
-Go to a termonal, and run the following command sqlmap --dump -r /var/www/html/NCI-Password-Search/database-design-and-commands/sqlmap.txt -p password --current-user --current-db --is-dba --level 5 --risk 3 --force-ssl
-now pray, if you beleive that can save you
+1.	Set Firefox to use a proxy
+2.	in the URL bar, type about:preferences#advanced
+3.	Click "network"
+4.	Click "Settings"
+5.	Click "Manual Proxy Configuration"
+6.	Set HTTP proxy to "localhost"
+7.	Set the port to "8080"
+8.	Check the box "Use this proxy server for all protocols"
+9.	Clear the box "No proxy for"
+10.	Click "OK"
+11.	Start "burpsuit "
+12.	Click "Proxy"
+13.	Click "Options"
+14.	Uncheck "Intercept requests based on the following rules "
+15.	Click "HTTP History"	
+16.	Go back to your web app, and attempt to use it as a user
+17.	once you have submitted a request to your web app, such as a search or entry into a database, then go back to burpsuit
+18.	we are looking to use the request to start the attack.
+19.	copy the full request into a text file, and call it something memorable such as"sqlmap.txt"
+20.	Go to a terminal, and run the following command sqlmap --dump -r /var/www/html/NCI-Password-Search/database-design-and-commands/sqlmap.txt -p password --current-user --current-db --is-dba --level 5 --risk 3 --force-ssl
+21.	now pray, if you believe that can save you
 
 Started ssl with a self signed certificate.
 
