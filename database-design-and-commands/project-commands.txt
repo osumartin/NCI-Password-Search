@@ -35,7 +35,29 @@ update-rc.d -f apache2 enable 2 3 4 5
 update-rc.d -f mysql enable 2 3 4 5
 
 ran SQL Map
-sqlmap -r sqlmap.txt -p password --current-user --current-db --is-dba --level 5 --risk 3 --force-ssl
+sqlmap --dump -r /var/www/html/NCI-Password-Search/database-design-and-commands/sqlmap.txt -p password --current-user --current-db --is-dba --level 5 --risk 3 --force-ssl
+
+Set Firefox to use a proxi
+in the url bar, type about:preferences#advanced
+Click "network"
+Click "Settings"
+Click "Manual Proxy Configuration"
+Set HTTP proxy to "localhost"
+Set the port to "8080"
+Check the box "Use this proxy server for all protocalls"
+Clear the box "No proxy for"
+Click "OK"
+Start "burpsuit "
+Click "Proxy"
+Click "Options"
+Uncheck "Intercept requests based on the following rools"
+Click "HTTP History"	
+Go back to your web app, and attempt to usit as a user
+once you have submitted a request to your web app, such as a search or entry into a database, then go back to burpsuit
+we are looking to use the request tostart the atack.
+copy the full request into a text file, and call it something memerable such as"sqlmap.txt"
+Go to a termonal, and run the following command sqlmap --dump -r /var/www/html/NCI-Password-Search/database-design-and-commands/sqlmap.txt -p password --current-user --current-db --is-dba --level 5 --risk 3 --force-ssl
+now pray, if you beleive that can save you
 
 Started ssl with a self signed certificate.
 
