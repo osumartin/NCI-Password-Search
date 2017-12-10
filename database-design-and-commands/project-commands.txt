@@ -30,6 +30,9 @@ cat rockyou.txt | sort | uniq | pw-inspector -m 8 -M 63 > kalitut.txt
 downloaded the stylesheet from https://haveibeenpwned.com
 wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://haveibeenpwned.com
 
+used wget to test the project, to test if wget could be used to access the php files with the passwords
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://192.168.0.206//NCI-Password-Search/site/
+
 Set apachi and mysql to start on boot
 update-rc.d -f apache2 enable 2 3 4 5
 update-rc.d -f mysql enable 2 3 4 5
